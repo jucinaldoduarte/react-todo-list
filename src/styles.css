@@ -1,0 +1,103 @@
+/* styles.css */
+
+/* Estiliza o formulário inteiro */
+.new-item-form {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fefefe;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Container da label e input */
+.form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Input ocupa 100% da largura */
+.form-row input[type="text"] {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Estilo do botão */
+.btn {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: #218838;
+}
+
+/* Lista geral */
+.list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  /* Cada item da lista */
+  .list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f4f4f4;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  }
+  
+  /* Checkbox + texto alinhado */
+  .list li label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+  }
+
+  /* Estiliza o botão delete */
+  .list .btn-danger {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .list .btn-danger:hover {
+    background-color: #c82333;
+  }
+  
+  /* Centraliza e define largura máxima da lista */
+.list {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .header {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
